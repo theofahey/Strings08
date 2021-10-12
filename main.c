@@ -40,7 +40,7 @@ int main() {
 
   printf("\nTesting strncat(s1, s2, 3):\n");
   printf("[standard]:\t[%s]\n", strncat(s1, s2, 3) );
-  s1[12] = 0;
+  s1[5] = 0;
   printf("[mine]:\t\t[%s]\n", mystrncat(s1, s2, 3) );
 
   printf("\nTesting strchr(s1, 'l'):\n");
